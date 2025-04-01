@@ -1,4 +1,4 @@
-import logging 11111111
+import logging
 import os
 import json
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
@@ -14,7 +14,7 @@ BOT_TOKEN = '7779845794:AAGZreuuHxXQqNZn1XDTpfcntaBOOeIeNP8'
 DATA_FILE = 'registered_chats.json'
 
 # Список разрешённых @username в Телеграм
-ALLOWED_USERNAMES = {  'VEGETAA38', 'SpammBotss' }
+ALLOWED_USERNAMES = {  'mahmoudeljefe', 'SpammBotss' }
 
 # Загрузка зарегистрированных чатов
 if os.path.exists(DATA_FILE):
